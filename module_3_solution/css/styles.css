@@ -50,11 +50,9 @@ hr {
   border: 0;
   background-color: #581845;
 }
-
 .navbar-brand {
   padding-top: 20px;
 }
-
 .navbar-brand h1 { 
   padding: 6px;
   font-size: 1.5em;
@@ -65,7 +63,7 @@ hr {
   line-height: 1.00;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .navbar-brand p { 
   color: #000;
@@ -95,9 +93,6 @@ hr {
   text-decoration: underline;
 }
 
-.navbar-toggle {
-  margin-top: 22px;
-}
 .navbar-brand p { 
   color: #581845;
   font-size: 1.1em;
@@ -126,9 +121,6 @@ hr {
   padding-bottom: 0px;
   font-size: 36px;
 }
-.navbar-toggle {
-  margin-top: 22px;
-}
 ul.nav {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -136,7 +128,7 @@ ul.nav {
 .navbar-default .navbar-nav > li > a {
   color: black;
   background-color: white;
-  padding: 0px;
+  padding: 5px;
 }
 div#hidden-btn.navbar-collapse.collapse.in {
   border: 1px solid black;
